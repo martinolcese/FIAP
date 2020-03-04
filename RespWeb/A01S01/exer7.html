@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exercício 07</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta charset="utf-8">
+        
+		<style>
+		body {font-size:14px;}
+		.cv-olcese {max-width: 800px;margin: 0 auto;-webkit-box-shadow: 0px 0px 40px -10px rgba(125,125,125,0.5);
+-moz-box-shadow: 0px 0px 40px -10px rgba(125,125,125,0.5);
+box-shadow: 0px 0px 40px -10px rgba(125,125,125,0.5);padding:60px;border-radius: 12px; }
+		* {font-family: Verdana,sans-serif;}
+		.cv-section {display: flex;margin-bottom:20px;}
+		.section-body {margin-top: 20px;}
+		.section-body .right {width:100%;}
+		.section-footer {padding:20px;display:block;margin-bottom: 0;}
+		.cv-cat h3 {padding-bottom: 10px;border-bottom: 2px solid red;text-transform: uppercase;font-weight: 800;padding-left: 10px;}
+		.item-sub-header h4 {margin-top: 0;}
+		.left {min-width:200px;}
+		.right{padding-left: 20px;}
+		.w-100 {width:100%;}
+		p{line-height: 0.8;margin-bottom: 5px;}
+		.item-body p {line-height: 1.4;}
+		.cv-img {border-radius: 50%;width:200px; height: 200px;background: url('img/martin.jpg')center no-repeat;    background-size: cover;}
+		.line {border-top:0;border-bottom: 2px solid red;height: 0;}
+		.line.grey {border-top:0;border-bottom: 2px solid #eee;height: 0;} .grey {background:#eee;}
+		.item-main-header {display: flex!important;justify-content: space-between;align-items:center;}
+
+		@media only screen and (max-width: 600px)  {
+			body{padding:20px;margin:0 auto;}
+			.cv-olcese {padding:30px;}
+			.cv-section{display:block;margin-bottom:30px; }
+			.cv-name {text-align: center;}
+			.section-body {margin-top: 30px;}
+			.cv-img {width:150px; height: 150px;margin: 0 auto;}
+			.right{padding-left: 0;}
+			.cv-cat br {display:none;} .cv-cat {text-align: center;}
+		}
+		</style>
+	</head>
+	<body>
+		<div class="cv-olcese" style="">
+			<!-- Imagem e dados Pessoais -->
+			<div class="cv-section section-1 section-header">
+				<div class="left">
+					<div class="cv-img"></div>
+				</div>
+				<div class="right w-100">
+					<h1 class="cv-name">Martin V. Olcese</h1>
+					<hr class="line">
+					<div class="dados-pessoais">
+						<h3>Dados Pessoais</h3>
+						<p><b>Rua:</b> Alameda de Buenos Aires, 1993</p>
+						<p><b>Cidade:</b> São Paulo</p>
+						<p><b>Telefone:</b> (11) 9 8812-4471</p>
+					</div>
+				</div>
+			</div>
+
+			<hr class="line grey">
+
+			<!-- Formação Acadêmica -->
+			<div class="cv-section section-2 section-body">
+				<div class="left">
+					<div class="cv-cat">
+						<h3>Formação<br> acadêmica</h3>
+					</div>
+				</div>
+				<div class="right">
+
+					<div class="cv-item">
+						<div class="item-header">
+							<div class="item-main-header">
+								<h2>Lynda.com - US</h2>
+								<span class="cv-duration">Jan 10 - Jun 12</span>
+							</div>
+							<div class="item-sub-header">
+								<h4 class="item-subtitle"><i>EAD | Cursos Avançados de Photoshop, Illustrator, InDesign, Web Design, Front-End development, Website Creation, JavaScript, Arte Digital | 30 meses</i></h4>
+							</div>
+						</div>
+						<div class="item-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales ut etiam sit amet nisl purus in mollis.  </p>	
+						</div>
+					</div>
+
+					<div class="cv-item">
+						<div class="item-header">
+							<div class="item-main-header">
+								<h2>Quality Center - Cotia</h2>
+								<span class="cv-duration">Jan 09 - Jul 09</span>
+							</div>
+							<div class="item-sub-header">
+								<h4 class="item-subtitle"><i>Escola | Curso Básico de Design Gráfico | 06 meses</i></h4>
+							</div>
+						</div>
+						<div class="item-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales ut etiam sit amet nisl purus in mollis.  </p>	
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr class="line grey">
+
+			<!-- XP PRO -->
+			<div class="cv-section section-3 section-body">
+				<div class="left">
+					<div class="cv-cat">
+						<h3>Experiência<br> profissional</h3>
+					</div>
+				</div>
+				<div class="right">
+
+					<div class="cv-item">
+						<div class="item-header">
+							<div class="item-main-header">
+								<h2>Google Ad Manager - V. Olimpia</h2>
+								<span class="cv-duration">Fev 17 - ATUAL</span>
+							</div>
+							<div class="item-sub-header">
+								<h4 class="item-subtitle"><i>Analista trilíngue de suporte | Plataforma Google Ad Manager</i></h4>
+							</div>
+						</div>
+						<div class="item-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales ut etiam sit amet nisl purus in mollis.  </p>	
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="cv-section section-4 section-footer grey">
+				<div class="">
+					São Paulo, 02 de Março de 2020
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

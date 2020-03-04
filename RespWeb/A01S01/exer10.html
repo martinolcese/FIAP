@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exercício 10</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+		<style>
+		html,body {height:100%;width: 100%;}
+		body {background-color:#1c1c1c;color:#eee;padding:0;margin:0;}
+		/* .bg-wrapper{background: url(bg.jpg) top repeat-y; background-size: contain;position: absolute; width:100%;overflow: hidden;z-index:-1;} */
+		.olcese-wrapper {max-width: 800px;margin: 0 auto;padding:60px 20px 40px 20px;}
+		* {font-family: Verdana,sans-serif;}
+		.olcese-section {display: flex;} .section-1 {margin-bottom: 40px;}
+		.section-body {border-left:2px solid #555;margin-top: 0!important;padding-left: 40px;position: relative;padding-bottom:20px;}
+		.section-body::after { content: ""; position: absolute;left:-11px;width: 20px;height:20px;top:0;background: #00ffcc;border-radius: 50%;}
+		.section-body .right {width:100%;}
+		.section-footer {padding:20px;display:block;margin-bottom: 0;}
+		.section-body h3{margin-top: 0;}
+		.item-sub-header h4 {margin-top: 0;}
+		.left {min-width:200px;}
+		.right{padding-left: 40px;}
+		.w-100 {width:100%;}
+		a {color: #00ffcc;text-decoration: none;font-weight: 800;transition: all .5s ease-out;margin-bottom:10px;}
+		a:hover, a:focus {color:#fff;}
+		p{line-height: 1.5;margin-bottom: 5px;color:#cecece!important;}
+		ol > li, ul > li {color:#cecece;margin-bottom:10px;}
+		ul {  list-style: none;}ul li::before {content: "\2022"; color: #ff335c!important;   font-weight: bold;   display: inline-block;  width: 1em;   margin-left: -1em;}
+		.item-body p {line-height: 1.4;}
+		.olcese-img {border-radius: 50%;width:200px; height: 200px;background: url('img/martin2.jpg')center no-repeat;    background-size: cover;}
+		.line {border-top:0;border-bottom: 2px solid #00ffcc;height: 0;}
+		.line.grey {border-top:0;border-bottom: 2px solid #eee;height: 0;} .grey {background:#eee;}
+		.item-main-header {display: flex!important;justify-content: space-between;align-items:center;}
+
+		@media only screen and (max-width: 600px)  {
+			body{padding:20px;margin:0 auto;}
+			.cv-olcese {padding:30px;}
+			.cv-section{display:block;margin-bottom:30px; }
+			.cv-name {text-align: center;}
+			.section-body {margin-top: 30px;}
+			.cv-img {width:150px; height: 150px;margin: 0 auto;}
+			.right{padding-left: 0;}
+			.cv-cat br {display:none;} .cv-cat {text-align: center;}
+		}
+		</style>
+	</head>
+	<body>
+		<div class="bg-wrapper"></div>
+		<div class="olcese-wrapper">
+			<div class="olcese-section section-1 section-header">
+				<div class="left">
+					<div class="olcese-img"></div>
+				</div>
+				<div class="right w-100">
+					<h1 class="olcese-name">Martin V. Olcese</h1>
+					<hr class="line">
+					<div class="dados-pessoais">
+						<h3>Quem eu sou?</h3>
+						<ul>
+							<li>26 anos</li>
+							<li>Argentino, Paraguaio e Italiano</li>
+							<li>De ex-jogador de futebol a Líder de Equipe de Suporte</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="olcese-section section-2 section-body">
+				<div class="w-100">
+					<h3>Começos simples</h3>
+					<p>Vim de uma familia missionaria cristã, onde não houve muito acesso com a tecnologia. Porém, tive bastante estimulação dos meus pais e tutores desde novo para ser autodidata e ter curiosidade pelas coisas que me causavam interesse.</p>
+					<p>Esse tipo de ensinamento me ajudou a aprender inglês e português, a tocar violão e guitarra, a aprender Photoshop e Illustrator e estudar teologia cristã com 15 anos e a maioria das coisas aprendidas como autodidata. </p>	
+				</div>
+			</div>
+
+			<div class="olcese-section section-3 section-body">
+				<div class="w-100">
+					<h3>Design Gráfico como gateway</h3>
+					<p>Com 15 anos, decidi fazer 1 curso intensivo de Design Gráfico básico, onde aprendi a utilizar Photoshop, DreamWeaver, Flash e Illustrator.</p>
+					<p>Foi meu primeiro contato (bem leve) com Web, porém fui para o lado do Design Gráfico, fazendo vários cursos de Artes Gráficas.</p>
+					<p>Foi meu primeiro contato (bem leve) com Web, porém fui para o lado do Design Gráfico, fazendo vários cursos de Artes Gráficas.</p>	
+				</div>
+			</div>
+
+			<div class="olcese-section section-4 section-body">
+				<div class="w-100">
+					<h3>Conheci Web Design com Bootstrap!</h3>
+					<p>Aos 18, enquanto jogava futebol na Itália, comecei a me interessar fortemente pelo design de sites, especialmente o front-end.</p>
+					<p>E foi assim que fiz 2 cursos sobre Responsive Web Design, onde aprendi CSS3, HTML5, Bootstrap framework, o básico de JavaScript e WordPress. Desde então, com humildes começos, consegui criar mais de 50 sites, tanto CMS como "na mão" e continuo estudando o tempo inteiro, me atualizando para estar ao dia com a tecnologia de Web Design.</p>
+                    <p>Caso queira ver alguns sites que realizei, deixo a seguir alguns links:</p>
+					<ol>
+						<li><a href="http://www.incanto.net.br">Incanto Locações | Bootstrap, HTML5+CSS3+JS, Responsive</a></li>
+						<li><a href="http://www.flinternational.com.br">FL International | WordPress, CMS+CSS+PHP, Responsive</a></li>
+					</ol>
+                    <p>Finalmente, em 2017 entrei como analista de suporte técnico da plataforma de anúncios Google Ad Manager. Hoje sou líder de equipe a qual brinda suporte trilíngue aos clientes da América Latina.</p>
+				</div>
+			</div>
+
+			<div class="olcese-section section-4 section-body">
+				<div class="w-100">
+					<h3>Meus objetivos na FIAP com TDSJ</h3>
+					<p>Espero poder conseguir absorver o conteúdo da melhor forma possível de todas as aulas, para assim poder aprimorar minhas habilidades técnicas no âmbito profissional.</p>
+					<p>Estou bastante interessado em aprender Python, Java, melhorar meu conhecimento de JavaScript e refrescar o Responsive Web, que é a matéria que mais gosto, já que combina interface gráfica com tecnologia.</p>
+					<p>Gosto bastante das aulas e espero que meus trabalhos atingam as expectativas. Este documento foi feito completamente em CSS + HTML5.</p>	
+				</div>
+			</div>
+			<div class="item-footer">
+				<h2>Muito obrigado!</h2>
+				<p>Martin V. Olcese, 03 de Março de 2020</p>
+			</div>
+		</div>	
+	</body>
+</html>
